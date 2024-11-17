@@ -10,7 +10,7 @@ app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1)
 
 @app.route('/')
 def home():
-    return jsonify({'server': 'https://discord.gg/vgUUYCQa6e',})
+    return jsonify({'server': 'https://discord.gg/6rDr2tPubr',})
 
 def sleep(seconds):
     time.sleep(seconds)
